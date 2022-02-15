@@ -1,0 +1,227 @@
+Welcome to the election game!
+Would you like to see the list of rules?(y/n)
+y
+---------------------
+RULES
+---------------------
+-The Election Game is a game which simulates a presidential election. 
+
+-Each candidate is given a turn each round. 
+
+-One of the candidates is selected at random to become incumbent president at the beginning of each game. The incumbent recieves 10 points for free due to the incumbency advantage
+
+-The goal of the game is to reach 270 points, representing 270 electors in a real election
+
+-During each turn, the candidate is given 6 actions to choose from
+
+-Every 10 points between 0 and 270 triggers an "EVENT" which may prompt you to take action
+
+-Rolling the dice: add 1-12 to your score depending on the roll.
+
+-Run ads against an opponent: use your turn, but take 3 points away from a candidate of your choice. 
+
+-Host a fundraising event: there is a 10% chance your fundraiser may go bad, in that case, 5 points will be deducted from your score. Otherwise 7 points will be added.
+
+-Debate a candidate: Debate a candidate of your choice, the challenger of the debate has a 60% chance of winning. 
+
+End of rules
+
+---------------------
+
+Enter the number of candidates that would like to participate in the election: 3
+
+Enter the name of candidate number 1: Theodore
+Enter the political party of Theodore (R for Republican, D for Democrat, T for Third) : R
+Enter the name of candidate number 2: Franklin
+Enter the political party of Franklin (R for Republican, D for Democrat, T for Third) : D
+Enter the name of candidate number 3: Bernie
+Enter the political party of Bernie (R for Republican, D for Democrat, T for Third) : T
+
+The current president, Theodore, starts with 
+10 points because they are the incumbent. 
+
+
+------------------------
+Round 1, Theodore's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      10
+2.            Franklin      0
+3.            Bernie        0
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 1
+
+The dice read: 11
+
+Adding 11 to Theodore's score
+
+------------------------
+Round 1, Franklin's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      21
+2.            Franklin      0
+3.            Bernie        0
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 2
+
+Enter the number of the candidate you want to run ads  against: 
+1. Theodore
+3. Bernie
+1
+Bad ad went well! Lowering Theodore's score by 3.
+
+------------------------
+Round 1, Bernie's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      18
+2.            Franklin      0
+3.            Bernie        0
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 1
+
+The dice read: 8
+
+Adding 8 to Bernie's score
+
+
+------------------------
+Round 2, Theodore's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      18
+2.            Franklin      0
+3.            Bernie        8
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 1
+
+The dice read: 10
+
+Adding 10 to Theodore's score
+
+------------------------
+Round 2, Franklin's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      28
+2.            Franklin      0
+3.            Bernie        8
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 1
+
+The dice read: 7
+
+Adding 7 to Franklin's score
+
+------------------------
+Round 2, Bernie's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      28
+2.            Franklin      7
+3.            Bernie        8
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 2
+
+Enter the number of the candidate you want to run ads  against: 
+1. Theodore
+2. Franklin
+1
+Bad ad went well! Lowering Theodore's score by 3.
+
+
+------------------------
+Round 3, Theodore's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      25
+2.            Franklin      7
+3.            Bernie        8
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 3
+
+Fundraising went well! +7 points to score.
+
+------------------------
+Round 3, Franklin's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      32
+2.            Franklin      7
+3.            Bernie        8
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 4
+
+Enter the number of the candidate you want to debate: 
+1. Theodore
+3. Bernie
+3
+Bernie has won the debate! Raising Bernie's score by 10 and lowering Franklin's score by 10
+
+------------------------
+Round 3, Bernie's turn:  
+
+Current candidate leaderboard: 
+num           name          score
+1.            Theodore      32
+2.            Franklin      0
+3.            Bernie        18
+
+1. Roll dice
+2. Run ads against a candidate
+3. Host a fundraising event
+4. Debate a candidate 
+5. End Game
+Enter a number to use your turn: 5
+
+
+Game ended early. Congratulations Theodore, you are the next President! 
